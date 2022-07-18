@@ -17,7 +17,7 @@ dữ liệu trên Firebase.
 - Giúp những người du lịch đi công tác hoặc du lịch tìm được một phòng, Khách sạn nhanh
 chóng, tiện lợi.
 
-4. Mô tả chức năng:
+4. Mô tả chức năng của app này:
 - Quản trị user, host và đơn đặt phòng
 
 ## Các tài liệu liên quan đến project:
