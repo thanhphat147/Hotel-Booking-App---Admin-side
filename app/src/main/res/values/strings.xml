@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Admin</string>
+    <string name="dangnhap">Đăng nhập</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_khachsan">Khách Sạn</string>
+    <string name="title_nguoidung">Người Dùng</string>
+    <string name="title_thongke">Thống Kê</string>
+    <string name="hint_khachsan">Nhập để tìm kiếm...</string>
+    <string name="dangxuat">Đăng Xuất</string>
+    <string name="tiente">VNĐ</string>
+    <string name="hoten">Họ Tên:</string>
+    <string name="ngaysinh">Ngày Sinh:</string>
+    <string name="gioitinh">Giới tính:</string>
+    <string name="quoctich">Quốc tịch:</string>
+    <string name="title_hoten">Họ Tên</string>
+    <string name="title_ngaysinh">Ngày Sinh</string>
+    <string name="title_gioitinh">Giới tính</string>
+    <string name="rad_nam">Nam</string>
+    <string name="rad_nu">Nữ</string>
+    <string name="title_quoctich">Quốc tịch</string>
+    <string name="title_cmnd">CMND/Hộ chiếu</string>
+    <string name="title_diachi">Địa chỉ</string>
+    <string name="title_email">Email</string>
+    <string name="title_lienlac">Số ĐT</string>
+    <string name="lang_en">Tiếng Anh</string>
+    <string name="lang_vi">Tiếng Việt</string>
+    <string name="luotdat">Lượt đặt</string>
+    <string name="doanhthu">Doanh thu</string>
+    <string name="title_activity_khachsan">Thông tin Khách sạn</string>
+    <string name="title_activity_nguoidung">Thông tin Người dùng</string>
+    <string name="hint_username">Tài khoản</string>
+    <string name="hint_pass">Mật khẩu</string>
+
+</resources>

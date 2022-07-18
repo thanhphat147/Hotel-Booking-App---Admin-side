@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/linear_h"
+    android:padding="15dp">
+
+
+    <LinearLayout
+        style="@style/linear_h"
+        >
+
+        <ImageView
+            android:id="@+id/imgHinhDaiDien"
+            style="@style/img_model"
+            android:layout_height="80dp"
+            android:src="@drawable/men" />
+
+        <LinearLayout style="@style/linear_v">
+
+            <LinearLayout
+                style="@style/linear_h"
+                android:paddingLeft="5dp">
+
+                <TextView
+                    style="@style/tv_model_bold"
+                    android:layout_width="96dp"
+                    android:text="@string/hoten" />
+
+                <TextView
+                    android:id="@+id/tvTenNguoiDung"
+                    style="@style/tv_model_regular" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linear_h"
+                android:paddingLeft="5dp">
+
+                <TextView
+                    style="@style/tv_model_bold"
+                    android:layout_width="96dp"
+                    android:text="@string/ngaysinh" />
+
+                <TextView
+                    android:id="@+id/tvNgaySinh"
+                    style="@style/tv_model_regular" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linear_h"
+                android:paddingLeft="5dp">
+
+                <TextView
+                    style="@style/tv_model_bold"
+                    android:layout_width="96dp"
+                    android:text="@string/gioitinh" />
+
+                <TextView
+                    android:id="@+id/tvGioiTinh"
+                    style="@style/tv_model_regular" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linear_h"
+                android:paddingLeft="5dp">
+
+                <TextView
+                    style="@style/tv_model_bold"
+                    android:layout_width="96dp"
+                    android:text="@string/quoctich" />
+
+                <TextView
+                    android:id="@+id/tvQuocTich"
+                    style="@style/tv_model_regular" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

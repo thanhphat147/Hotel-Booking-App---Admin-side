@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/template"
+    android:orientation="vertical"
+    tools:context=".ui.nguoidung.FragmentNguoiDung"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/svNguoiDung"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/edittext"
+            app:iconifiedByDefault="false"
+            app:defaultQueryHint="Tên người dùng..."/>
+
+
+        <Button
+            android:id="@+id/btnDangXuat"
+            style="@style/button_logout"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/button_selector"
+            android:text="@string/dangxuat" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvNguoiDung"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/custom_item_nguoidung" />
+
+</LinearLayout>

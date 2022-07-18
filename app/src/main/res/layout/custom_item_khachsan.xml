@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/linear_h">
+
+    <LinearLayout
+        style="@style/linear_v"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/textview_chitiet">
+
+        <LinearLayout
+            style="@style/linear_h"
+            android:layout_height="80dp"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:id="@+id/imgAnhKhachSan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/hotel" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvTenKS"
+            style="@style/tv_model_bold"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:text="Rex Hotel" />
+
+        <TextView
+            android:id="@+id/tvDiaChiKS"
+            style="@style/tv_model_bold"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:text="Hà Nội" />
+    </LinearLayout>
+
+
+</LinearLayout>
