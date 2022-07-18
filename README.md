@@ -20,6 +20,8 @@ chóng, tiện lợi.
 4. Mô tả chức năng của app này:
 - Quản trị user, host và đơn đặt phòng
 
+5. Số lượng thành viên: 5
+
 ## Các tài liệu liên quan đến project:
 1. Sơ đồ thiết kế database, [xem tại đây](https://drive.google.com/file/d/1fYBXzoRuphOkvnVgEuhwnqWxrbM8qlBU/view?usp=sharing).
 2. Sơ đồ hướng đối tượng, [xem tại đây](https://drive.google.com/file/d/1tHwi1EROW0VK2_61WldQIDc5vcMyldm6/view?usp=sharing).
